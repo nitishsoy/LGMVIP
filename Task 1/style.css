@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+#Welcome{
+  background: url(https://wallpaperaccess.com/full/1251666.jpg);
+  background-size:100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: sans-sheriff;
+  font-size: 20px;
+  color: #123;
+  margin-top:  5px;
+}
+
+
+input:focus{
+background: #abc;
+border-radius:3px;
+border-top: 20px;
+}
+
+#TopCharts{
+    background: url(https://wallpaperaccess.com/full/831613.jpg);
+    background-size: cover;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+#slider{
+  max-width: 100%;
+  display: flex;
+}
+
+
+#TopCharts hover{
+font-size: 20px;
+}
+
+
+.TopCharts div{
+  background-size: 100%;
+  padding: 5px;
+  border: 5px;
+
+}
+
+.cards{
+width:60%;
+display: inline-block;
+background-color: #fff;
+text-align: center;
+margin: 20px;
+box-shadow: 3px 3px black ;
+}
+
+.cards h3:hover{
+font-size: 25px;
+}
+
+.slider .cards .image{
+  background-size: cover;
+    width: 97%;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+
+
+.button{
+color: #eee;
+transition: 5s;
+}
+
+#Subscribe h4:hover{
+font-size: 15px;
+}
+
+#Subscribe h5{
+  color: black;
+}
+
+#Subscribe{
+    background: url(https://c4.wallpaperflare.com/wallpaper/587/770/522/windows-95-solid-color-blue-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+#Subscribe h3:hover{
+font-size: 15px;
+}
+
+
+#Video{
+background: url(https://images.hdqwalls.com/download/gradient-soft-solid-color-4k-4e-2048x1152.jpg);
+background-size: cover;
+padding: 10px;
+margin-top: 5px;
+
+}
+
+
+#Artists{
+    background: url(https://t3.ftcdn.net/jpg/03/51/49/02/360_F_351490213_S7dVUfS6K6UFsmDOQIa0eySWD8mkiGm0.jpg);
+    background-size: cover;
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+#Artists h4:hover{
+  font-size: 20px;
+
+}
+
+
+#contact-form{
+margin-top: 5px;
+background: url(https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFubmVyJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80.jpg);
+background-size: cover;
+object-position: left;
+}
+
+#contact-form .container{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.container .contact-box{
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.container .left{
+	background: url(https://elimcoaerospace.com/wp-content/uploads/2018/05/CustomerSupport.jpg) no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.container .right{
+	padding: 25px 40px;
+}
+
+.container h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+.container h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+.container .field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
